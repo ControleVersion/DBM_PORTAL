@@ -1,4 +1,5 @@
 painel/.env
 painel/database/
 painel/vendor/
+painel/config/mail.php
 painel-atual.zip
