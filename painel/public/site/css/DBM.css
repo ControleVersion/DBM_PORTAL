@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*dbm style*/
+
+/*home*/
+#mobileLogo{
+	background-image:url('../images/logo-92x48.png'); 
+	background-repeat:no-repeat; 
+	background-size: 92px 46px; 
+	width:92px; 
+	height:48px;
+}
+/*-----------------------------------------------------*/
+
+/*modal*/
+.modalPadding{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+/*-----------------------------------------------------*/
+
+/*parceiro footer*/
+.parceiro-logo{
+	opacity: 0.7;
+	-webkit-transition: opacity 1s; /* Safari */
+    transition: opacity 1s;
+}
+.parceiro-logo:hover{
+	opacity: 1;
+}
+/*-----------------------------------------------------*/
+
+/*formulários*/
+/*estilo placeholder*/
+input::-webkit-input-placeholder{
+font-style: italic;
+color:#ccc !important;
+}
+
+input::-moz-placeholder{
+font-style: italic;
+color:#ccc !important;
+}
+
+/*erro na validação
+sobreescreve as do template*/
+.has-error .form-control:not(.form-control-impressed){
+background-color: #f54b0f;
+}
+
+.has-error .form-control:not(.form-control-impressed):focus{
+background-color: #fff;
+}
+/*-----------------------------------------------------*/
+
+/*página DBMicos*/
+
+/*-- lista com alunos*/
+.lista-dbmicos-info-modal{
+    color:#4d4d4d;
+    min-width: 190px
+}
+
+.lista-dbmicos-brasil-item{
+  padding-right: 10px;
+  min-width: 260px
+}
+
+.dbmicos-localidade{
+  font-size: 20px;
+}
+
+.DBMicos_Null{
+  padding-top: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/*-- mapa do Brasil*/
+#vmap{
+  height: 400px;
+}
+
+.jqvmap-pin {   
+  color: #fff;
+  background-color:rgba(0,0,0,0.5);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 720px) {
+    #vmap{ 
+      position: absolute;
+    }
+
+    .lista-dbmicos-info{
+    	color:#4d4d4d;
+    	min-width: 190px
+    }
+}
+/*-----------------------------------------------------*/
+

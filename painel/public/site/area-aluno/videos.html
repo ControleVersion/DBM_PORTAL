@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="bootstrap-layout">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Da Bioquímica à Mesa</title>
+
+<!-- Prevent the demo from appearing in search engines (REMOVE THIS) -->
+<meta name="robots" content="noindex">
+<!-- Material Design Icons  -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Roboto Web Font -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+<!-- App CSS -->
+<link type="text/css" href="assets/css/style.min.css" rel="stylesheet">
+<!-- Charts CSS -->
+<link rel="stylesheet" href="examples/css/morris.min.css">
+<!-- altera a cor do navegador -->
+<meta name="theme-color" content="#1072C0">
+<meta name="apple-mobile-web-app-status-bar-style" content="#1072C0">
+<meta name="msapplication-navbutton-color" content="#1072C0">
+<!-- altera a cor do navegador -->
+
+<style type="">
+  .videoTitle{
+    margin-top: 10px;
+  }
+</style>
+
+</head>
+
+<body class="layout-container ls-top-navbar si-l3-md-up">
+  <!-- Navbar -->
+  <nav class="navbar navbar-light bg-white navbar-full navbar-fixed-top ls-left-sidebar">
+
+    <!-- Sidebar toggle -->
+    <button class="navbar-toggler pull-xs-left hidden-lg-up" type="button" data-toggle="sidebar" data-target="#sidebarLeft"><span class="material-icons">menu</span></button>
+
+    <!-- Brand -->
+    <a class="navbar-brand first-child-md" href="#">Videos</a>
+
+    <!-- Menu -->
+    <ul class="nav navbar-nav pull-xs-right hidden-md-down">
+      <!-- User dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link active dropdown-toggle p-a-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false">
+          <img src="assets/images/people/50/guy-6.jpg" alt="Avatar" class="img-circle" width="40">
+        </a>
+        <div class="dropdown-menu dropdown-menu-right dropdown-menu-list" aria-labelledby="Preview">
+          <a class="dropdown-item" href="#"><i class="material-icons md-18">person</i> <span class="icon-text">Meu Perfil</span></a>
+          <a class="dropdown-item" href="#">Sair</a>
+        </div>
+      </li>
+      <!-- // END User dropdown -->
+
+    </ul>
+    <!-- // END Menu -->
+
+  </nav>
+  <!-- // END Navbar -->
+
+  <!-- Sidebar -->
+  <div class="sidebar sidebar-left si-si-3 sidebar-visible-md-up sidebar-dark bg-primary" id="sidebarLeft" data-scrollable>
+
+    <!-- Brand -->
+    <a href="index.html" class="sidebar-brand" style="height:100px;">
+        <img class="img-responsive" width="170" height="90" src="images/DBM-logo-white.png" style="margin-top:5px;">
+    </a>
+
+    <!-- Menu -->
+    <ul class="sidebar-menu sm-bordered sm-active-button-bg">
+      
+      <!-- videos aula ao vivo-->
+      <li class="sidebar-menu-item">
+        <a class="sidebar-menu-button" href="#">
+          <i class="sidebar-menu-icon material-icons">videocam</i> Aula ao vivo 
+        </a>
+      </li>
+      <!-- videos aula ao vivo -->
+
+      <!-- videos grávados-->
+      <li class="sidebar-menu-item  active">
+        <a class="sidebar-menu-button" href="#">
+          <i class="sidebar-menu-icon material-icons">subscriptions</i> Videos 
+        </a>
+        <ul class="sidebar-submenu " >
+          <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button" href="#">Todos</a>
+          </li>
+        </ul>
+        <ul class="sidebar-submenu " >
+          <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button" href="#">Prof. Murilo Pereira</a>
+          </li>
+        </ul>
+        <ul class="sidebar-submenu " >
+          <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button" href="#">Prof. ....</a>
+          </li>
+        </ul>
+        <ul class="sidebar-submenu " >
+          <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button" href="#">Prof. ...</a>
+          </li>
+        </ul>
+      </li>
+      <!-- videos grávados-->
+
+      <!-- material -->
+      <li class="sidebar-menu-item">
+        <a class="sidebar-menu-button" href="#">
+          <i class="sidebar-menu-icon material-icons">insert_drive_file</i> Material de estudo
+        </a>
+        <ul class="sidebar-submenu " >
+          <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button" href="material.html">Todos</a>
+          </li>
+        </ul>
+        <ul class="sidebar-submenu " >
+          <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button" href="#">Prof. Murilo Pereira</a>
+          </li>
+        </ul>
+        <ul class="sidebar-submenu " >
+          <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button" href="#">Prof. ....</a>
+          </li>
+        </ul>
+        <ul class="sidebar-submenu " >
+          <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button" href="#">Prof. ...</a>
+          </li>
+        </ul>
+      </li>
+      <!-- material -->
+
+     
+      
+
+  
+
+
+
+  </div>
+  <!-- // END Sidebar -->
+
+  <!-- Right Sidebars -->
+
+  <!-- Content -->
+  <div class="layout-content" data-scrollable>
+    <div class="container-fluid">
+
+
+      <!-- Row -->
+      <div class="row">
+        <!-- Column -->
+        <!-- estrutura básica video -->
+        <section class="col-md-4 video-post">
+          <div class="card">
+            <div class="card-block">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <!-- avatar do professor que deu a aula -->
+                  <img src="images/avatar_murilo.jpg" alt="" class="img-circle" width="50">
+                </div>
+                <div class="media-body media-middle">
+                  <p class="card-subtitle">Prof. Murilo Pereira</p>
+                  <small>Data: 10/04/2017</small>
+                </div>
+              </div>
+            </div>
+            <a href="#">
+              <img src="images/300x200.jpg" alt="" width="100%">
+            </a>
+            <div class="card-block">
+              <h4 class="card-title">Bactérias no intestino</h4>
+              <p>Nesta aula vamos falar sobre...</p>
+            </div>
+          </section>
+          <!-- estrutura básica video -->
+          <!-- estrutura básica video -->
+        <section class="col-md-4 video-post">
+          <div class="card">
+            <div class="card-block">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <!-- avatar do professor que deu a aula -->
+                  <img src="images/avatar_murilo.jpg" alt="" class="img-circle" width="50">
+                </div>
+                <div class="media-body media-middle">
+                  <p class="card-subtitle">Prof. Murilo Pereira</p>
+                  <small>Data: 10/04/2017</small>
+                </div>
+              </div>
+            </div>
+            <a href="#">
+              <img src="images/300x200.jpg" alt="" width="100%">
+            </a>
+            <div class="card-block">
+              <h4 class="card-title">Bactérias no intestino</h4>
+              <p>Nesta aula vamos falar sobre...</p>
+            </div>
+          </section>
+          <!-- estrutura básica video -->
+          <!-- estrutura básica video -->
+        <section class="col-md-4 video-post">
+          <div class="card">
+            <div class="card-block">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <!-- avatar do professor que deu a aula -->
+                  <img src="images/avatar_murilo.jpg" alt="" class="img-circle" width="50">
+                </div>
+                <div class="media-body media-middle">
+                  <p class="card-subtitle">Prof. Murilo Pereira</p>
+                  <small>Data: 10/04/2017</small>
+                </div>
+              </div>
+            </div>
+            <a href="#">
+              <img src="images/300x200.jpg" alt="" width="100%">
+            </a>
+            <div class="card-block">
+              <h4 class="card-title">Bactérias no intestino</h4>
+              <p>Nesta aula vamos falar sobre...</p>
+            </div>
+          </section>
+          <!-- estrutura básica video -->
+          <!-- estrutura básica video -->
+        <section class="col-md-4 video-post">
+          <div class="card">
+            <div class="card-block">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <!-- avatar do professor que deu a aula -->
+                  <img src="images/avatar_murilo.jpg" alt="" class="img-circle" width="50">
+                </div>
+                <div class="media-body media-middle">
+                  <p class="card-subtitle">Prof. Murilo Pereira</p>
+                  <small>Data: 10/04/2017</small>
+                </div>
+              </div>
+            </div>
+            <a href="#">
+              <img src="images/300x200.jpg" alt="" width="100%">
+            </a>
+            <div class="card-block">
+              <h4 class="card-title">Bactérias no intestino</h4>
+              <p>Nesta aula vamos falar sobre...</p>
+            </div>
+          </section>
+          <!-- estrutura básica video -->
+          <!-- estrutura básica video -->
+        <section class="col-md-4 video-post">
+          <div class="card">
+            <div class="card-block">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <!-- avatar do professor que deu a aula -->
+                  <img src="images/avatar_murilo.jpg" alt="" class="img-circle" width="50">
+                </div>
+                <div class="media-body media-middle">
+                  <p class="card-subtitle">Prof. Murilo Pereira</p>
+                  <small>Data: 10/04/2017</small>
+                </div>
+              </div>
+            </div>
+            <a href="#">
+              <img src="images/300x200.jpg" alt="" width="100%">
+            </a>
+            <div class="card-block">
+              <h4 class="card-title">Bactérias no intestino</h4>
+              <p>Nesta aula vamos falar sobre...</p>
+            </div>
+          </section>
+          <!-- estrutura básica video -->
+          <!-- estrutura básica video -->
+        <section class="col-md-4 video-post">
+          <div class="card">
+            <div class="card-block">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <!-- avatar do professor que deu a aula -->
+                  <img src="images/avatar_murilo.jpg" alt="" class="img-circle" width="50">
+                </div>
+                <div class="media-body media-middle">
+                  <p class="card-subtitle">Prof. Murilo Pereira</p>
+                  <small>Data: 10/04/2017</small>
+                </div>
+              </div>
+            </div>
+            <a href="#">
+              <img src="images/300x200.jpg" alt="" width="100%">
+            </a>
+            <div class="card-block">
+              <h4 class="card-title">Bactérias no intestino</h4>
+              <p>Nesta aula vamos falar sobre...</p>
+            </div>
+          </section>
+          <!-- estrutura básica video -->
+        <!-- // END Column -->
+
+
+    
+
+
+      </div>
+      <!-- // END Row -->
+
+      
+
+   
+
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="assets/vendor/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="assets/vendor/tether.min.js"></script>
+  <script src="assets/vendor/bootstrap.min.js"></script>
+
+  <!-- AdminPlus -->
+  <script src="assets/vendor/adminplus.js"></script>
+
+  <!-- App JS -->
+  <script src="assets/js/main.min.js"></script>
+
+  <!-- Theme Colors -->
+  <script src="assets/js/colors.js"></script>
+
+  <!-- Charts JS -->
+  <script src="assets/vendor/raphael.min.js"></script>
+  <script src="assets/vendor/morris.min.js"></script>
+
+  <!-- Initialize Charts -->
+  <script src="examples/js/chart.js"></script>
+
+</body>
+
+</html>

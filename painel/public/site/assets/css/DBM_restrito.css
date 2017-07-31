@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+  /*estilo das páginas restritas*/
+  /*nav*/
+  #dbmbrand{
+    height:100px;
+  }
+
+  #dbmbrand > img{
+    margin-top:5px;
+  }
+
+  /*video*/
+  .videoTitle{
+    margin-top: 10px;
+  }
+
+  /*player DBM*/
+
+  #videoWrapperRespo{
+    margin-bottom: 15px;
+  }
+
+
+  #video-mask{
+    color:#fff;
+    vertical-align:middle;
+    text-align: center;
+    font-size: 16px;
+    display:inline-block;
+    text-shadow:1px 1px 3px #ccc;
+    position:absolute; 
+    top:60%; 
+    left:0%; 
+    z-index:900; 
+    padding-top:0%;
+    width: 100%;
+  }
+
+  /*ajusta a marca dágua no mobile*/
+  @media only screen and (max-device-width: 480px) {
+      #video-mask{
+        font-size:12px;
+      }
+  }
+
+  #info-box{
+    margin-bottom: 15px;
+  }
+
+  .info-box-dbm{
+  	margin-bottom: 0px;
+  }
+
+  #info-box-dbm-list{
+  	list-style-type:none;
+  	padding-left:0;
+  	text-align: justify;
+  	font-size:10px;
+  }
+
+  #info-box-dbm-list + li {
+    margin-bottom:3px;
+  }
+
+  #materialWrapper{
+    margin-top:10px;
+  }
+
+  .downloadFile img{
+    margin-left: 30%;
+  }

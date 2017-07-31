@@ -1,0 +1,33 @@
+[05-Apr-2017 18:43:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/ctee/laravel/dbm/artisan on line 31
+[05-Apr-2017 18:43:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/ctee/laravel/dbm/artisan on line 31
+[21-Apr-2017 00:11:15] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[21-Apr-2017 00:11:15] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[23-Apr-2017 14:09:39] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[23-Apr-2017 14:09:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[30-Apr-2017 13:11:37] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[30-Apr-2017 13:11:37] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[17-May-2017 02:54:31 UTC] PHP Fatal error:  Cannot declare class CreateProfissionaisTable, because the name is already in use in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/database/migrations/2017_05_17_024322_create_profissionals_table.php on line 36
+[09-Jun-2017 14:01:31] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:01:31] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:09:48] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:09:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:12:22] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:12:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:14:47] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:14:47] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:31:39] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:31:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:39:44] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:39:44] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:43:50] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[09-Jun-2017 14:43:50] PHP Parse error:  syntax error, unexpected T_STRING in /home/siswe908/public_html/portaldbm.com.br/homolog/painel/artisan on line 31
+[21-Jul-2017 14:14:19] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/porta580/public_html/painel/artisan on line 31
+[21-Jul-2017 14:14:19] PHP Parse error:  syntax error, unexpected T_STRING in /home/porta580/public_html/painel/artisan on line 31
+[21-Jul-2017 14:21:17] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/porta580/public_html/painel/artisan on line 31
+[21-Jul-2017 14:21:17] PHP Parse error:  syntax error, unexpected T_STRING in /home/porta580/public_html/painel/artisan on line 31
+[21-Jul-2017 14:23:05] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/porta580/public_html/painel/artisan on line 31
+[21-Jul-2017 14:23:05] PHP Parse error:  syntax error, unexpected T_STRING in /home/porta580/public_html/painel/artisan on line 31
+[21-Jul-2017 14:27:58] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/porta580/public_html/painel/artisan on line 31
+[21-Jul-2017 14:27:58] PHP Parse error:  syntax error, unexpected T_STRING in /home/porta580/public_html/painel/artisan on line 31
+[21-Jul-2017 14:36:40] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/porta580/public_html/painel/artisan on line 31
+[21-Jul-2017 14:36:40] PHP Parse error:  syntax error, unexpected T_STRING in /home/porta580/public_html/painel/artisan on line 31

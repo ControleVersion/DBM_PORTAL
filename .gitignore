@@ -1,0 +1,4 @@
+painel/.env
+painel/database/
+painel/vendor/
+painel-atual.zip
